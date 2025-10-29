@@ -1,0 +1,98 @@
+.menu {
+    display: grid;
+    justify-items: start;
+    margin-left: 218px;
+    padding-bottom: 15px;
+    
+}
+.menu-main {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(64, 64, 64);
+    width: 150px;
+}
+.menu-main a {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+    padding-left: 6px;
+    border-radius: 7px;
+}
+.menu-main a:hover {
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.menu-icon {
+    color: #71aaeb;
+}
+.help {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(64, 64, 64);
+    width: 150px;
+}
+.help a{
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 7px;
+    margin-top: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.help a:hover {
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;  
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.other {
+    display: grid;
+    padding-top: 15px;
+    border-bottom: 1px solid rgb(64, 64, 64);
+    width: 150px;
+    padding-bottom: 15px;
+}
+.other a{
+    color: rgb(130, 130, 130);
+    text-decoration: none; 
+    padding-bottom: 2px;
+    font-size: 14px;
+}
+.other-third{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.other a:hover{
+    text-decoration-line: underline;
+}
+.other-first {
+    display: flex;
+    gap: 20px;
+}
+.other-second {
+    display: flex;
+    gap: 20px;
+}

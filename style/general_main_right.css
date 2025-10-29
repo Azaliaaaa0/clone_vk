@@ -1,0 +1,223 @@
+.general-main-right {
+    width: 368px;
+}
+.profile-status {
+    background: #222222;
+    border: 1px solid rgb(52, 52, 52);
+    display: flex;
+    align-items: center;
+    width: 353px;
+    height: 85px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 12px;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.profile-status:hover {
+    background: #3a3a3a;
+}
+.icon {
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    color: #71aaeb;
+}
+.status-text {
+    display: grid;
+    flex: 1; 
+}
+.status-text h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.status-text p {
+    margin: 3px 0 0;
+    font-size: 13px;
+    color: #bbb;
+}
+.status-arrow {
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+}
+.section-friends {
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #222222;
+    border: 1px solid rgb(52, 52, 52);
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 321px
+}
+.section-friends h3 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.section-friends h3:hover {
+    color: rgb(113, 113, 113);;
+}
+.friends-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  
+}
+.friend {
+    text-align: center;
+    font-size: 12px;
+    color: #ccc;
+}
+.friend:hover {
+    background: #4a4a4a;
+    border-radius: 10px;
+}
+.friend img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 7px auto 7px;
+}
+.section-gift {
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #222222;
+    border: 1px solid rgb(52, 52, 52);
+    margin-left: 15px;
+    width: 321px
+}
+.section-gift h3 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.section-gift h3:hover {
+    color: rgb(113, 113, 113);;
+}
+.gifts-list {
+    display: flex;
+    gap: 10px;
+}
+.gift {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+.gift img {
+    width: 100%;
+    object-fit: cover;
+    background: #2a2a2a;
+}
+.gift img:hover {
+    opacity: 50%;
+}
+.subscriptions {
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #222222;
+    border: 1px solid rgb(52, 52, 52);
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 321px;
+    
+}
+.subscriptions h3 {
+    margin: 0 0 15px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.subscriptions h3:hover {
+    color: rgb(113, 113, 113);
+}
+.subscription-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+    border-radius: 12px;
+    margin-left: -10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.subscription-item:last-child {
+    margin-bottom: 0;
+}
+.subscription-item:hover {
+    background: #4a4a4a;
+}
+.subscription-item img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.subscription-text {
+    display: flex;
+    flex-direction: column;
+}
+.subscription-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+.subscription-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+.subscription-desc {
+    font-size: 12px;
+    color: #aaa;
+}
+.videos-block {
+    width: 321px;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #222222;
+    border: 1px solid rgb(52, 52, 52);
+    margin-top: 15px;
+    margin-left: 15px;
+    text-align: center;
+}
+.videos-block h3 {
+    text-align: left;
+    margin: 0 0 15px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.videos-block h3:hover {
+    color: rgb(113, 113, 113);
+}
+.videos-block-text {
+    margin: 40px 0;
+    font-size: 14px;
+    color: #bbb;
+}
+.btn-upload {
+    display: block;
+    text-decoration: none;
+    background: #2a2a2a;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 12px;
+}
+.btn-upload:hover {
+    background: #3a3a3a;
+}
