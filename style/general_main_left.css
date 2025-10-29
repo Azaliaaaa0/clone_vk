@@ -16,7 +16,8 @@
     border-radius: 10px 10px 0 0;
     margin-left: 21px;
 }
-.tab-btn {
+
+.tab_btn {
     display: flex;
     gap: 5px;
     padding: 6px 30px;
@@ -26,7 +27,7 @@
     text-decoration: none;
     border-radius: 8px;
 }
-.tab-btn.active {
+.tab_btn.active {
     background: #333;
     color: white;
     border-radius: 8px;
@@ -47,6 +48,18 @@
 }
 .gallery img:hover {
     opacity: 70%;
+}
+.gallery-img-top-left {
+    border-radius: 10px 0px 0px 0px;
+}
+.gallery-img-top-right {
+    border-radius: 0px 10px 0px 0px;
+}
+.gallery-img-bottom-left {
+    border-radius: 0px 0px 0px 10px;
+}
+.gallery-img-bottom-right {
+    border-radius: 0px 0px 10px 0px;
 }
 .btns {
     display: flex;
@@ -212,6 +225,7 @@
     color: rgb(116, 116, 116);
 }
 .tabs-content {
+    display: none;
     padding: 20px;
     text-align: center;
     min-height: 150px;
