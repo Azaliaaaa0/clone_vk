@@ -34,9 +34,7 @@
     border-radius: 8px;
     text-decoration: none;
 }
-.tab_content {
-    display: none;
-}
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 162px);
