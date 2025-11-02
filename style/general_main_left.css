@@ -15,8 +15,8 @@
     margin-top: 10px;
     border-radius: 10px 10px 0 0;
     margin-left: 21px;
+    border: none;
 }
-
 .tab_btn {
     display: flex;
     gap: 5px;
@@ -26,12 +26,16 @@
     cursor: pointer;
     text-decoration: none;
     border-radius: 8px;
+    border: none;
 }
 .tab_btn.active {
     background: #333;
     color: white;
     border-radius: 8px;
     text-decoration: none;
+}
+.tab_content {
+    display: none;
 }
 .gallery {
     display: grid;
@@ -206,12 +210,14 @@
     font-size: 14px;
     text-decoration: none;
     border-radius: 8px;
+    border: none;
 }
 .tabs-btn.active {
     background: #333;
     color: white;
     border-radius: 8px;
     text-decoration: none;
+    border: none;
 }
 .border {
     width: 100%;
