@@ -34,7 +34,12 @@
     border-radius: 8px;
     text-decoration: none;
 }
-
+#music {
+    display: block;
+}
+#albums {
+    display: block;
+}
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 162px);
