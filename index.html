@@ -117,15 +117,15 @@
                         Помощь</a>  
                 </div>
                 <div class="other">
-                    <div class="other-first">
+                    <div class="other-info-first">
                         <a href="#" id="blog">Блог</a>
                         <a href="#" id="developer">Разработчикам</a>
                     </div>
-                    <div class="other-second">
+                    <div class="other-info-second">
                         <a href="#" id="buisness">Для бизнеса</a>
                         <a href="#" id="author">Авторам</a>  
                     </div>
-                    <div class="other-third">
+                    <div class="other-info-third">
                         <a href="#" id="more">
                             Еще
                             <img src="img/logo/menu_arrow.png" alt="">
@@ -217,12 +217,12 @@
                                     <a href="#">Показать всё</a>
                                 </div>
                             </div>
-                            <div class="tab_content" id="music">
+                            <div class="tab_content" id="music" style="display: none;">
                                 <div class="playlist">
                                     <p>У вас пока нет добавленных аудиозаписей</p>
                                 </div>
                             </div>
-                            <div class="tab_content" id="albums">
+                            <div class="tab_content" id="albums" style="display: none;">
                                 <div class="albums">
                                     <div class="album">
                                         <img src="img/profile/ava.jpg" alt="Фото профиля">
@@ -259,17 +259,17 @@
 
                         <div class="posts-block">
                             <div class="tabs">
-                                <button class="tabs-btn active" data-tab="all">Все посты</button>
-                                <button class="tabs-btn" data-tab="mine">Мои посты</button>
-                                <button class="tabs-btn" data-tab="archive">Архив постов</button>
+                                <button class="tabs_btn active" data-tab="all">Все посты</button>
+                                <button class="tabs_btn" data-tab="mine">Мои посты</button>
+                                <button class="tabs_btn" data-tab="archive">Архив постов</button>
                                 <a class="search-btn">
                                 <svg fill="none" height="25" viewBox="0 0 20 20" width="22" 
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path clip-rule="evenodd" d="M9.5 4.5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM3 9.5a6.5 6.5 0 1 1 11.6 4.04l3.18 3.18a.75.75 0 1 1-1.06 1.06l-3.18-3.18A6.5 6.5 0 0 1 3 9.5z" fill="currentColor" fill-rule="evenodd"></path></svg>
                                 </a>
                             </div>
-                            <div class="border"></div>
-                            <div class="tabs-content" id="all">
+                            <!-- <div class="border"></div> -->
+                            <div class="tabs_content" id="all">
                                 <div class="empty">
                                     <svg width="56" height="56" viewBox="0 0 56 56" 
                                     xmlns="http://www.w3.org/2000/svg">
@@ -281,7 +281,7 @@
                                     <p>Пока нет ни одного поста</p>
                                 </div>
                             </div>
-                            <div class="tabs-content" id="mine">
+                            <div class="tabs_content" id="mine" style="display: none;">
                                 <div class="empty">
                                 <svg width="56" height="56" viewBox="0 0 56 56" 
                                 xmlns="http://www.w3.org/2000/svg">
@@ -293,7 +293,7 @@
                                 <p>У вас нет ни одного поста</p>
                                 </div>
                             </div>
-                            <div class="tabs-content" id="archive">
+                            <div class="tabs_content" id="archive" style="display: none;">
                                 <div class="empty">
                                 <svg width="56" height="56" viewBox="0 0 56 56" 
                                 xmlns="http://www.w3.org/2000/svg">

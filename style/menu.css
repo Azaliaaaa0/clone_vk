@@ -80,19 +80,19 @@
     padding-bottom: 2px;
     font-size: 14px;
 }
-.other-third{
-    display: flex;
-    gap: 5px;
-    align-items: center;
-}
 .other a:hover{
     text-decoration-line: underline;
 }
-.other-first {
+.other-info-first {
     display: flex;
     gap: 20px;
 }
-.other-second {
+.other-info-second {
     display: flex;
     gap: 20px;
+}
+.other-info-third{
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
